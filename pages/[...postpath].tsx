@@ -101,7 +101,7 @@ const Post: React.FC<PostProps> = (props) => {
 				<title>{post.title}</title>
 			</Head>
 			<div className="post-container">
-				<h1>{post.title}</h1>
+				<h1>{post.title}dfgdfgdfgdfgdfg</h1>
 				<img
 					src="https://goal.hotnewsmm.xyz/wp-content/uploads/2022/12/28-12.jpg"
 					alt="https://goal.hotnewsmm.xyz/wp-content/uploads/2022/12/28-12.jpg"
