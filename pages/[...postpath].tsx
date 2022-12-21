@@ -90,9 +90,6 @@ const Post: React.FC<PostProps> = (props) => {
 				<meta property="og:site_name" content={host.split('.')[0]} />
 				<meta property="article:published_time" content={post.dateGmt} />
 				<meta property="article:modified_time" content={post.modifiedGmt} />
-<!-- 				<meta property="og:image" content={post.featuredImage.node.sourceUrl} />
-				<meta property="og:image:width" content="200">
-				<meta property="og:image:height" content="200"> -->
 				<meta property="og:image" content="https://goal.hotnewsmm.xyz/wp-content/uploads/2022/12/28-12.jpg">
 				<meta property="og:image:width" content="600">
 				<meta property="og:image:height" content="330">
