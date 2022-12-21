@@ -95,6 +95,8 @@ const Post: React.FC<PostProps> = (props) => {
 				<meta property="og:image:height" content="200">
 				<meta
 					property="og:image:alt"
+					property="og:image:width" content="200"
+					property="og:image:height" content="200"
 					content={post.featuredImage.node.altText || post.title}
 				/>
 				<title>{post.title}</title>
