@@ -92,7 +92,7 @@ const Post: React.FC<PostProps> = (props) => {
 				<meta property="article:modified_time" content={post.modifiedGmt} />
 				<meta property="og:image" content="https://goal.hotnewsmm.xyz/wp-content/uploads/2022/12/28-12.jpg">
 				<meta property="og:image:width" content="600">
-				<meta property="og:image:height" content="660">
+				<meta property="og:image:height" content="6660">
 				<meta property="og:image:type" content="image/jpeg">
 				<meta
 				property="og:image:alt"
