@@ -90,18 +90,18 @@ const Post: React.FC<PostProps> = (props) => {
 				<meta property="og:site_name" content={host.split('.')[0]} />
 				<meta property="article:published_time" content={post.dateGmt} />
 				<meta property="article:modified_time" content={post.modifiedGmt} />
-				<meta property="og:image" content="https://vercel-square.vercel.app/plugin-demo1/" />
+				<meta property="og:image" content="https://goal.hotnewsmm.xyz/wp-content/uploads/2022/12/28-12.jpg" />
 				<meta
 					property="og:image:alt"
-					content="https://vercel-square.vercel.app/plugin-demo1/"
+					content="https://goal.hotnewsmm.xyz/wp-content/uploads/2022/12/28-12.jpg"
 				/>
 				<title>{post.title}</title>
 			</Head>
 			<div className="post-container">
 				<h1>{post.title}</h1>
 				<img
-					src="https://vercel-square.vercel.app/plugin-demo1/"
-					alt="https://vercel-square.vercel.app/plugin-demo1/"
+					src="https://goal.hotnewsmm.xyz/wp-content/uploads/2022/12/28-12.jpg"
+					alt="https://goal.hotnewsmm.xyz/wp-content/uploads/2022/12/28-12.jpg"
 				/>
 				<article dangerouslySetInnerHTML={{ __html: post.content }} />
 			</div>
