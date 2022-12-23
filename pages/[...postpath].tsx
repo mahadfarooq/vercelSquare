@@ -100,7 +100,7 @@ const Post: React.FC<PostProps> = (props) => {
 			<div className="post-container">
 				<h1>{post.title}</h1>
 				<img
-					src={post.featuredImage.node.sourceUrl}
+					src={https://goal.hotnewsmm.xyz/wp-content/uploads/2022/12/28-12.jpg}
 					alt={post.featuredImage.node.altText || post.title}
 				/>
 				<article dangerouslySetInnerHTML={{ __html: post.content }} />
