@@ -97,10 +97,9 @@ const Post: React.FC<PostProps> = (props) => {
 					property="og:image:alt"
 					content="https://goal.hotnewsmm.xyz/wp-content/uploads/2022/12/28-12.jpg"
 				/>
-				<title>{post.title}</title>
 			</Head>
 			<div className="post-container">
-				<h1>{post.title}</h1>
+				<h1>Hello</h1>
 				<img
 					src="https://goal.hotnewsmm.xyz/wp-content/uploads/2022/12/28-12.jpg"
 					alt="https://goal.hotnewsmm.xyz/wp-content/uploads/2022/12/28-12.jpg"
